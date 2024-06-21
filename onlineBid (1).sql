@@ -9,7 +9,7 @@ use OnlineBidding
 create table Role(
 roleID nvarchar(255) PRIMARY KEY,
 roleName nvarchar(255) not null unique,
-description TEXT not null
+
 );
 
 --Role cua account
