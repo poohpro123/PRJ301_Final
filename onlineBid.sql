@@ -5,7 +5,7 @@ use OnlineBidding
 
 --Account
 create table Account(
-accountID nvarchar(255) PRIMARY KEY ,
+accountID nvarchar(254) PRIMARY KEY ,
 password nvarchar(255) not null,
 fullName nvarchar(255) not null,
 email NVARCHAR(255) NOT NULL,
