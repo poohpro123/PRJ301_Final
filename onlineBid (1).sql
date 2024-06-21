@@ -8,7 +8,6 @@ use OnlineBidding
 --Vai tro cua member
 create table Role(
 roleID nvarchar(255) PRIMARY KEY,
-roleName nvarchar(255) not null unique,
 
 );
 
